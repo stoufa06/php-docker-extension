@@ -66,7 +66,7 @@ cd $PHP_PATH
     --enable-intl --with-iconv --with-pdo_sqlite --with-sqlite3 --with-readline --with-gmp --with-curl --with-pdo-pgsql=shared \
     --with-pgsql=shared --with-config-file-scan-dir=$PHP_PATH/php-bin/DEBUG/etc/conf.d --enable-simplexml --with-sodium --enable-gd --with-pear \
     --with-freetype --with-jpeg --with-webp --with-zip --with-pdo-dblib=shared --with-tidy --with-ldap=/usr/ --enable-apcu=shared
-make -j6
+make -j4
 make install
 
 EOF
